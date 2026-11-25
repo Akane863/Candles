@@ -1,0 +1,94 @@
+/* Controls the font and size of the main page heading. */
+h1{
+    font-family: 'BebasNeueRegular';
+    font-size:5em;
+}
+
+/* Controls the font and size of section headings. */
+h2{
+    font-family: 'BebasNeuelight';
+    font-size:2em;
+}
+
+/* Controls the font used in the navigation menu. */
+nav{
+    font-family: 'BebasNeueRegular';
+}
+
+/* Controls the size of the navigation menu items. */
+.top-level > li {
+    font-size:1.5em;
+}
+ 
+
+/* ==========================================================
+   HOW TO CHANGE THE FONTS ON THIS WEBSITE
+   ==========================================================
+
+   OPTION 1 - Use a font already included in the project
+
+   Change the font-family value in a ruleset.
+
+   Example:
+
+   h1{
+       font-family: Arial, sans-serif;
+   }
+
+   ==========================================================
+
+   OPTION 2 - Use a Google Font
+
+   Step 1:
+   Visit https://fonts.google.com
+
+   Step 2:
+   Browse or search for a font that you like.
+
+   Step 3:
+   Click on the font and select "Get Font".
+
+   Step 4:
+   Copy the <link> tag provided by Google Fonts.
+
+   Example:
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+   Step 5:
+   Paste the link into the <head> section of your HTML file.
+
+   Step 6:
+   Update the font-family property in this file.
+
+   Example:
+
+   h1{
+       font-family: 'Roboto', sans-serif;
+   }
+
+   ==========================================================
+
+   COMMON FONT AREAS
+
+   h1   = Main page heading
+   h2   = Section headings
+   nav  = Navigation menu text
+   li   = Individual menu items
+
+   ==========================================================
+
+   TIP
+
+   Always include a fallback font.
+
+   Example:
+
+   font-family: 'Roboto', Arial, sans-serif;
+
+   If the chosen font cannot be loaded, the browser will
+   use the next available font instead.
+
+   ========================================================== */
